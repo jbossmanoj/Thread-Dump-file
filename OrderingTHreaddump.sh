@@ -11,7 +11,7 @@
 
 #Script providing server details to user
 
-echo -e "\e[1;32m List of Ordering Servers \n lxomavmecom120" \(\A\,1\) "\n" "lxomavmecom121" \(\2\) "\n" "lxomavmecom122" \(\3\,4\) "\n" "lxomavmecom123" \(\5\,6\) "\n" "Please enter the server name for which you need work like Example: lxomavmecom120\e[0m"
+echo -e "\e[1;32m List of Ordering Servers \n Server-120" \(\A\,1\) "\n" "Server-121" \(\2\) "\n" "Server-122" \(\3\,4\) "\n" "lxomavmecom123" \(\5\,6\) "\n" "Please enter the server name for which you need work like Example: lxomavmecom120\e[0m"
 echo -e "\e[1;31mEnter the Server Names: \e[0m\c"
 read x
 
@@ -32,7 +32,7 @@ Timer()
 
 # Business logic starts here
 
-appid="ordering"
+appid="hello"
 for server in $x
 do
         echo -e "This is WLS server\n"
