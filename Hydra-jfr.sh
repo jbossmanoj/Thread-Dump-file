@@ -67,3 +67,4 @@ do
 #ssh -q $svr "gzip $log_dir/Threaddump_$appname.log | gzip $log_dir/TOP_$appname.log | gzip $log_dir/SAR_$appname.log | gzip $log_dir/JFR_$appname.log | gzip  $log_dir/HeapDump_$appname.log"
 done
 Timer
+#End of script
